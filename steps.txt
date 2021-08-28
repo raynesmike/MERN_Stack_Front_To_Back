@@ -1,0 +1,14 @@
+Step1 - DL regular dependencies
+npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+
+Step2 - DL dev dependencies
+npm i -D nodemon concurrently
+
+Step3 - setup DB
+
+step4 - setup Routes
+
+
+
+
+
