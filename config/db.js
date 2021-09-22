@@ -2,6 +2,8 @@ const mongoose = require('mongoose');
 const config = require('config');
 const db = config.get('mongoURI');
 
+// Mongoose returns a promise thats why we have to use async and await
+
 const connectDB = async () => {
   try {
     await mongoose.connect(db);
