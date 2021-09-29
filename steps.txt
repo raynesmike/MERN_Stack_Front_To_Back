@@ -1,12 +1,22 @@
+###Back-End
 Step1 - DL regular dependencies
-npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
+$npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request
 
 Step2 - DL dev dependencies
-npm i -D nodemon concurrently
+$npm i -D nodemon concurrently
 
-Step3 - setup DB
+Step3 
+- setup DB
 
-step4 - setup Routes
+step4
+$setup Api Routes for Post, Users, Profile and Auth. Also add Models
+
+###Front-End
+Step1
+$npx create-react-app client ///This will initiate front-end
+$npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment rea-moment uuid
+
+
 
 
 
